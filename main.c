@@ -15,11 +15,11 @@ int main() {
     return 0;
 }
 
-
+// Start Function
 void start() {
 
 }
-//test
+
 void printIntroMenu() {
 
 }
