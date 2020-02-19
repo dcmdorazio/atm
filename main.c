@@ -1,37 +1,56 @@
+/* Cody D'Orazio
+ * Professor Ojaj
+ * Programming Language Lab 1
+ * 20 February 2020
+ * */
+
 #include <stdio.h>
+#include <stdlib.h>
+int choice, pin, k;
 
-void start();
-void printIntroMenu();
-void printMainMenu();
-void createAccount();
-void login();
+char name[] = "nana";
+int balance = 5000;
+int pin = 3014;
 
-//char menuInput;
 
 int main() {
-    //printf("Hello, World!\n");
-    // calls upon my "Start" function.
-    start();
-    return 0;
-}
 
-// Start Function
-void start() {
+    switch(choice) {
+        case 1: balance();
+            break;
 
-}
+        case 2: withdraw();
+        break;
 
-void printIntroMenu() {
+        case 3: deposit();
+            break;
 
-}
+        case 4: quit();
+            break;
 
-void printMainMenu() {
-
-}
-
-void createAccount() {
+        default: printf("Please try again and select a number from 1 - 4");
+    }
 
 }
 
-void login() {
+void balance() {
+    printf("$%d", balance);
 
+}
+
+void withdraw() {
+
+
+}
+
+void deposit() {
+
+
+}
+
+int quit() {
+
+
+
+    // exit(0);
 }
